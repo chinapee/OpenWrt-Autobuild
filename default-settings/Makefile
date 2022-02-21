@@ -29,7 +29,12 @@ define Package/addition-default-settings
 	PKGARCH:=all
 	DEPENDS:=+ip6tables \
 		+iptables-mod-fullconenat \
+		+kmod-ipt-conntrack-extra \
+		+kmod-ipt-ipopt \
+		+kmod-ipt-raw \
+		+kmod-macvlan \
 		+libustream-wolfssl \
+		+luci \
 		+luci-compat \
 		+luci-proto-ipv6 \
 		+odhcp6c \
