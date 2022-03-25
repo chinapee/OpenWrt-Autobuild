@@ -53,9 +53,6 @@ git clone -b master --depth 1 --single-branch https://github.com/destan19/OpenAp
 git clone -b master --depth 1 --single-branch https://github.com/vernesong/OpenClash package/new/luci-app-openclash
 wget -qO - https://github.com/openwrt/openwrt/commit/efc8aff.patch | patch -p1
 
-#  TencentDDNS
-git clone -b master --depth 1 --single-branch https://github.com/Tencent-Cloud-Plugins/tencentcloud-openwrt-plugin-ddns/tree/master/tencentcloud_ddns package/new/luci-app-tencentddns
-
 # Realtek RTL8811CU/RTL8821CU
 cp -rv ../immortalwrt/package/kernel/rtl8821cu package/new/rtl8821cu
 
