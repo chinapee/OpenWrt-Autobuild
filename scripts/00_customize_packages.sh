@@ -53,6 +53,9 @@ git clone -b master --depth 1 --single-branch https://github.com/destan19/OpenAp
 git clone -b master --depth 1 --single-branch https://github.com/vernesong/OpenClash package/new/luci-app-openclash
 wget -qO - https://github.com/openwrt/openwrt/commit/efc8aff.patch | patch -p1
 
+#  TencentDDNS
+git clone -b master --depth 1 --single-branch https://github.com/Tencent-Cloud-Plugins/tencentcloud-openwrt-plugin-ddns/tree/master/tencentcloud_ddns package/new/luci-app-tencentddns
+
 # Realtek RTL8811CU/RTL8821CU
 cp -rv ../immortalwrt/package/kernel/rtl8821cu package/new/rtl8821cu
 
@@ -122,10 +125,6 @@ ln -sf ../../../feeds/luci/applications/luci-app-xlnetacc ./package/feeds/luci/l
 # Zerotier
 svn export https://github.com/immortalwrt/luci/branches/openwrt-21.02/applications/luci-app-zerotier feeds/luci/applications/luci-app-zerotier
 ln -sf ../../../feeds/luci/applications/luci-app-zerotier ./package/feeds/luci/luci-app-zerotier
-
-#  TencentDDNS
-svn export https://github.com/Tencent-Cloud-Plugins/branches/msster/tencentcloud-openwrt-plugin-ddns/tencentcloud_ddns feeds/luci/applications/luci-app-tencentddns
-ln -sf ../../../feeds/luci/applications/luci-app-tencentddns ./package/feeds/luci/luci-app-tencentddns
 
 # default settings and translation
 cp -rv ../default-settings package/new/learn-translate
