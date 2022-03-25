@@ -28,3 +28,5 @@ CONFIG_PACKAGE_luci-app-wrtbwmon=n
 CONFIG_PACKAGE_luci-app-zerotier=y
 #CONFIG Tencent dnspod
 CONFIG_PACKAGE_luci-app-tencentddns=y
+#CONFIG serverchan
+CONFIG_PACKAGE_luci-app-serverchan=y
