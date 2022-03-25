@@ -123,6 +123,10 @@ ln -sf ../../../feeds/luci/applications/luci-app-xlnetacc ./package/feeds/luci/l
 svn export https://github.com/immortalwrt/luci/branches/openwrt-21.02/applications/luci-app-zerotier feeds/luci/applications/luci-app-zerotier
 ln -sf ../../../feeds/luci/applications/luci-app-zerotier ./package/feeds/luci/luci-app-zerotier
 
+#  TencentDDNS
+svn export https://github.com/Tencent-Cloud-Plugins/branches/msster/tencentcloud-openwrt-plugin-ddns/tencentcloud_ddns feeds/luci/applications/luci-app-tencentddns
+ln -sf ../../../feeds/luci/applications/luci-app-tencentddns ./package/feeds/luci/luci-app-tencentddns
+
 # default settings and translation
 cp -rv ../default-settings package/new/learn-translate
 
