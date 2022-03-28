@@ -9,10 +9,10 @@ CONFIG_KERNEL_MIPS_FP_SUPPORT=y
 CONFIG_LUCI_SRCDIET=y
 
 CONFIG_PACKAGE_addition-default-settings=y
-# CONFIG_PACKAGE_ddns is not set
-CONFIG_PACKAGE_luci-app-ddns=y
-CONFIG_PACKAGE_ddns-scripts_aliyun=y
-CONFIG_PACKAGE_ddns-scripts_dnspod=y
+
+# CONFIG_PACKAGE_luci-app-tencentddns
+CONFIG_PACKAGE_luci-app-tencentddns=y
+
 # CONFIG_PACKAGE_dnsmasq is not set
 CONFIG_PACKAGE_dnsmasq-full=y
 CONFIG_PACKAGE_luci-app-accesscontrol=y
