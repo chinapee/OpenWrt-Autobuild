@@ -10,14 +10,11 @@ CONFIG_LUCI_SRCDIET=y
 
 CONFIG_PACKAGE_addition-default-settings=y
 
-# CONFIG_PACKAGE_luci-app-tencentddns
-CONFIG_PACKAGE_luci-app-tencentddns=y
-
 # CONFIG_PACKAGE_dnsmasq is not set
 CONFIG_PACKAGE_dnsmasq-full=y
 CONFIG_PACKAGE_luci-app-accesscontrol=y
-CONFIG_PACKAGE_luci-app-autoreboot=y
-CONFIG_PACKAGE_luci-app-ramfree=y
+CONFIG_PACKAGE_luci-app-autorebootn
+CONFIG_PACKAGE_luci-app-ramfree=n
 CONFIG_PACKAGE_luci-app-ssr-plus=y
 CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks=n
 CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Rust=n
@@ -29,8 +26,10 @@ CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Server=n
 CONFIG_PACKAGE_luci-i18n-ssr-plus-zh-cn=y
 CONFIG_PACKAGE_luci-app-vlmcsd=y
 CONFIG_PACKAGE_luci-app-wrtbwmon=n
-CONFIG_PACKAGE_luci-app-zerotier=y
+CONFIG_PACKAGE_luci-app-zerotier=n
 #CONFIG Tencent dnspod
 CONFIG_PACKAGE_luci-app-tencentddns=y
 #CONFIG serverchan
-CONFIG_PACKAGE_luci-app-serverchan=y
+CONFIG_PACKAGE_luci-app-serverchan=n
+#CONFIG wireguard
+CONFIG_PACKAGE_luci-app-wireguard=y
